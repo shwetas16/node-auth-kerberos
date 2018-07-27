@@ -1,0 +1,33 @@
+{
+  "name": "node-auth-kerberos",
+  "version": "1.0.0",
+  "author": "shwetas16 <shweta_s@hotmail.com>",
+  "description": "Node.js native addon for simple Kerberos 5 user authentication",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shwetas16/node-auth-kerberos.git"
+  },
+  "homepage": "https://github.com/shwetas16/node-auth-kerberos",
+  "main": "./build/Release/krb5",
+  "keywords": [
+    "kerberos",
+    "krb5",
+    "auth",
+    "authentication",
+    "active directory",
+    "ad",
+    "windows"
+  ],
+  "engines": {
+    "node": ">=8.11.1"
+  },
+  "dependencies": {
+    "nan": "^2.10.0",
+    "node-gyp": "^3.7.0"
+  },
+  "scripts": {
+    "install": "node-gyp rebuild"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {}
+}

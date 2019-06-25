@@ -21,6 +21,15 @@ https://github.com/qesuto/node-krb5/pull/17
 Installation
 ------------
 
+Install the required Linux header libraries needed for install if necessary:
+``` bash
+$ sudo apt install -y libkrb5-dev 
+```
+or
+``` bash
+$ sudo yum install -y krb5-devel
+```
+
 You can install with `npm`:
 
 ``` bash
